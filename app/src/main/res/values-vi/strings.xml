@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Demo app</string>
+    <string name="database">DEMOAPP.db</string>
+    <string name="error_not_found">Không tìm thấy dữ liệu</string>
+    <string name="error_unknown">Lỗi không xác định</string>
+    <string name="error_body_null">Dữ liệu không có</string>
+    <string name="error_login_fails" translatable="false">Tên đăng nhập hoặc mật khẩu không đúng</string>
+
+    <string name="login_title_phone_number" tools:ignore="ExtraTranslation">Nhập số điện thoại</string>
+    <string name="login_title_password" tools:ignore="ExtraTranslation">Nhập mật khẩu</string>
+    <string name="login">Đăng nhập</string>
+    <string name="text_hint_input_email" tools:ignore="ExtraTranslation">Nhập tên tài khoản</string>
+    <string name="permission_required">Ứng dụng cần các quyền này để có thể hoạt động. Vui lòng cấp quyền!</string>
+    <string name="notification" translatable="false">Thông báo</string>
+
+    <string name="confirm" translatable="false">Xác nhận</string>
+    <string name="language_vietnamese" tools:ignore="ExtraTranslation">Tiếng Việt (VI)</string>
+    <string name="language_english" tools:ignore="ExtraTranslation">Tiếng Anh (EN)</string>
+
+    <string name="title_choose_language">Chọn ngôn ngữ</string>
+    <string name="choose_english">Tiếng Anh</string>
+    <string name="choose_vietnamese">Tiếng việt</string>
+    <string name="tittle_out_of_application">Bạn chắc chắn muốn thoát khỏi ứng dụng?</string>
+    <string name="msg_confirm_logout">Bạn chắc chắn muốn đăng xuất?</string>
+    <string name="label_version_common">Phiên bản</string>
+    <string name="versionDefault">1.0.0</string>
+
+    <string name="mess_network_unavailable_tip" tools:ignore="MissingTranslation">Mất kết nối internet, vui lòng kiểm tra lại!</string>
+
+</resources>

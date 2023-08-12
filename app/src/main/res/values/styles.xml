@@ -1,0 +1,186 @@
+<resources>
+
+  <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">@color/black</item>
+    <item name="colorAccent">@color/black</item>
+    <item name="colorPrimaryDark">@color/black</item>
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowBackground">@color/black</item>
+    <item name="android:navigationBarColor">@android:color/black</item>
+    <item name="android:backgroundDimAmount">0.3</item>
+  </style>
+
+  <style name="TextStyle" parent="@android:style/Widget.TextView">
+    <item name="android:textColor">@android:color/white</item>
+    <item name="android:gravity">center</item>
+    <item name="android:padding">10dp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">18sp</item>
+  </style>
+
+  <style name="CircleImageStyle" parent="">
+    <item name="cornerFamily">rounded</item>
+    <item name="cornerSize">50%</item>
+  </style>
+
+  <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+  <style name="CollapsedExpandedTitleText" parent="AppTheme">
+    <item name="android:textColor">@android:color/transparent</item>
+  </style>
+
+  <style name="anim_float_view">
+    <item name="android:windowEnterAnimation">@anim/push_up_in</item>
+    <item name="android:windowExitAnimation">@anim/push_up_out</item>
+  </style>
+
+  <style name="ButtonStyle">
+    <item name="android:fontFamily">font/nunito_sans_bold</item>
+    <item name="android:background">@drawable/button_normal</item>
+    <item name="android:textColorHint">@color/colorAccentDisable</item>
+    <item name="android:textColor">@color/colorTextWhite</item>
+    <item name="android:textSize">@dimen/text_size_normal</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textAllCaps">true</item>
+    <item name="android:paddingStart">@dimen/spaces_medium</item>
+    <item name="android:paddingEnd">@dimen/spaces_medium</item>
+    <item name="android:layout_centerHorizontal">true</item>
+    <!--<item name="android:stateListAnimator">@null</item>-->
+  </style>
+
+  <style name="ButtonStyle.Login" parent="ButtonStyle">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:background">@drawable/button_register_normal</item>
+    <item name="android:textColor">@color/colorBottomEditTextLineLogin</item>
+    <item name="android:layout_marginLeft">@dimen/spaces_large</item>
+    <item name="android:layout_marginRight">@dimen/spaces_large</item>
+  </style>
+
+  <style name="EditTextStyle.Login" parent="EditTextStyle">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:paddingLeft">0dp</item>
+    <item name="android:paddingBottom">6dp</item>
+    <item name="android:textColor">@color/white</item>
+    <item name="android:textColorHint">@color/text_color_edittext_login</item>
+    <item name="android:background">@drawable/selector_bg_edittext_login</item>
+
+  </style>
+
+  <style name="EditTextStyle">
+    <item name="android:fontFamily">@font/nunito_sans_semi_bold</item>
+    <item name="android:background">@drawable/selector_bg_edittext</item>
+    <item name="android:textColorHint">@color/colorTextHint</item>
+    <item name="android:textColor">@color/colorTextPrimary</item>
+    <!--<item name="android:textCursorDrawable">@null</item>-->
+    <item name="android:textSize">@dimen/text_size_normal</item>
+    <item name="android:lines">1</item>
+    <item name="android:singleLine">true</item>
+    <item name="android:paddingTop">@dimen/spaces_small</item>
+    <item name="android:paddingBottom">@dimen/spaces_small</item>
+    <item name="android:paddingLeft">@dimen/spaces_medium</item>
+    <item name="android:paddingRight">@dimen/spaces_medium</item>
+  </style>
+  <style name="LoginBackgroundStyle">
+    <item name="android:background">#A61F85</item>
+  </style>
+
+  <style name="TitleTextStyle">
+    <item name="android:fontFamily">@font/nunito_sans_regular</item>
+    <item name="android:textColor">@color/white</item>
+    <item name="android:textSize">@dimen/text_size_normal</item>
+    <item name="android:textStyle">normal</item>
+  </style>
+
+  <style name="TitleTextNormalStyle" parent="TitleTextStyle">
+    <item name="android:fontFamily">@font/nunito_sans_regular</item>
+  </style>
+
+  <style name="TitleTextLightStyle" parent="TitleTextStyle">
+    <item name="android:fontFamily">@font/nunito_sans_light</item>
+  </style>
+
+  <style name="TitleTextSemiBoldStyle" parent="TitleTextStyle">
+    <item name="android:fontFamily">@font/nunito_sans_semi_bold</item>
+  </style>
+
+  <style name="TitleTextBoldStyle" parent="TitleTextStyle">
+    <item name="android:fontFamily">@font/nunito_sans_bold</item>
+  </style>
+
+  <style name="TextContentStyle">
+    <item name="android:fontFamily">@font/nunito_sans_regular</item>
+    <item name="android:textColor">@color/colorTextPrimary</item>
+    <item name="android:textSize">@dimen/text_size_normal</item>
+    <item name="android:textStyle">normal</item>
+  </style>
+
+  <style name="TextContentNormalStyle" parent="TextContentStyle">
+    <item name="android:fontFamily">@font/nunito_sans_regular</item>
+  </style>
+
+  <style name="TextContentLightStyle" parent="TextContentStyle">
+    <item name="android:fontFamily">@font/nunito_sans_light</item>
+  </style>
+
+  <style name="TextContentSemiBoldStyle" parent="TextContentStyle">
+    <item name="android:fontFamily">@font/nunito_sans_semi_bold</item>
+  </style>
+
+  <style name="TextContentBoldStyle" parent="TextContentStyle">
+    <item name="android:fontFamily">@font/nunito_sans_bold</item>
+  </style>
+
+  <style name="HintContentStyle">
+    <item name="android:fontFamily">@font/nunito_sans_regular</item>
+    <item name="android:textColor">@color/colorTextThird</item>
+    <item name="android:textSize">@dimen/text_size_normal</item>
+    <item name="android:textStyle">normal</item>
+  </style>
+
+  <style name="LineHorizontal">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">@dimen/line_height</item>
+    <item name="android:background">@color/colorLineDivide</item>
+  </style>
+
+  <style name="Design">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+  </style>
+
+  <style name="Design.Text">
+    <item name="android:textSize">@dimen/text_size_16</item>
+    <item name="android:fontFamily">sans-serif-light</item>
+  </style>
+
+  <style name="Design.Text.Normal">
+    <item name="android:textColor">@color/Black</item>
+    <item name="android:textStyle">normal</item>
+  </style>
+
+
+  <style name="DialogAlert" parent="Theme.MaterialComponents.Light.Dialog.Alert">
+  <item name="android:background">@android:color/transparent</item>
+  <item name="android:windowBackground">@android:color/transparent</item>
+</style>
+
+  <style name="Divider">
+    <item name="android:background">@color/Grey300</item>
+  </style>
+
+  <style name="Divider.Horizontal">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">@dimen/space_05</item>
+  </style>
+
+  <style name="Divider.Vertical">
+    <item name="android:layout_width">@dimen/space_1</item>
+    <item name="android:layout_height">match_parent</item>
+  </style>
+
+  <style name="ProgressResourceWhite">
+    <item name="colorAccent">@color/colorTextWhite</item>
+  </style>
+
+</resources>
