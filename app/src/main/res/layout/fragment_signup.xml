@@ -96,7 +96,7 @@
                     android:textColorHint="@color/white"
                     android:backgroundTint="@color/white"
                     android:textColor="@color/white"
-                    android:text="I am over 16 years of age"/>
+                    android:text="@string/title_years_old"/>
 
                 <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/textTerm"

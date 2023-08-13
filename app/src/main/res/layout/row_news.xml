@@ -44,6 +44,7 @@
                 android:id="@+id/textContent"
                 style="@style/TitleTextBoldStyle"
                 android:layout_width="match_parent"
+                android:text="@{data.content}"
                 android:textSize="@dimen/text_size_14"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black" />

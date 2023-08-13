@@ -35,5 +35,7 @@
     <string name="error_signup_fails">registration information is incorrect or already exists</string>
     <string name="error_signup_success_login_fails">You have successfully registered but an error occurred while logging in, please login again</string>
     <string name="title_login">Login</string>
+    <string name="title_years_old">I am over 16 years of age</string>
+    <string name="title_signup">Signup</string>
 
 </resources>
