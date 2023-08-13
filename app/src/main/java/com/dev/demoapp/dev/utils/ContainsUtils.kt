@@ -43,16 +43,7 @@ object ContainsUtils {
     const val checkLogin = "/auth/signin"
     const val checkSignup = "/auth/signup"
 
-    const val getQr = "/booking-service/Qr/getqr"
-    const val updateQr = "/booking-service/Qr/updateqr"
-    const val getHistory = "/booking-service/Qr/gethistory"
-    const val deleteHistory = "/booking-service/Qr/deletehistory"
-    const val getVehicleType = "/booking-service/vehicle/getVehicleType"
-    const val getTimeType = "/user-service/timeframe/dropdown-timeframe-mobile"
 
-    const val checkUpdate  = "/booking-service/resource/get-version"
-
-
-//    o	http://streaming.nexlesoft.com:3001/auth/signup
+    const val getCategories  = "/categories"
 
 }

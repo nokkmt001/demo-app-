@@ -56,6 +56,38 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/spaces_medium" />
 
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/editLastName"
+                        style="@style/EditTextStyle.Login"
+                        android:hint="@string/sign_up_hint_input_last_name"
+                        android:inputType="text" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/spaces_medium" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/editFirstName"
+                        style="@style/EditTextStyle.Login"
+                        android:hint="@string/sign_up_hint_input_first_name"
+                        android:inputType="text" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/spaces_medium" />
+
                 <CheckBox
                     android:id="@+id/checkbox"
                     android:layout_width="match_parent"
@@ -83,12 +115,12 @@
             android:orientation="horizontal">
 
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@+id/textSignup"
+                android:id="@+id/textLogin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/space_10"
                 android:layout_gravity="center"
-                android:text="Login"
+                android:text="@string/title_login"
                 android:textSize="@dimen/text_size_20"
                 android:textColor="@color/white"
                 style="@style/TextContentStyle"/>

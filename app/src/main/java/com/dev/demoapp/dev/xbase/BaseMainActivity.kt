@@ -27,14 +27,14 @@ abstract class BaseMainActivity<T : ViewDataBinding>(@LayoutRes private val cont
             return
         }
 
-        if (System.currentTimeMillis().minus(mExitTime) <= 2000) {
+//        if (System.currentTimeMillis().minus(mExitTime) <= 2000) {
             DialogUtil.showDialog(this, getString(R.string.notification), getString(R.string.tittle_out_of_application), true, null, okFunc = {
                 mFragmentHelper!!.remove()
                 finishAffinity()
             })
-        } else {
-            mExitTime = System.currentTimeMillis()
-        }
+//        } else {
+//            mExitTime = System.currentTimeMillis()
+//        }
     }
 
     override fun pushFragment(baseFragment: BaseMvvmFragment<*>) {

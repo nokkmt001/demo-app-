@@ -11,6 +11,7 @@ import com.dev.demoapp.dev.utils.AESUtils
 import com.dev.demoapp.dev.xbase.BaseMvvmFragment
 import com.dev.demoapp.model.RepoState
 import com.dev.demoapp.model.UserLoginPass
+import com.dev.demoapp.view.ui.home.HomeFragment
 import com.dev.demoapp.view.ui.main.MainFragment
 import com.dev.demoapp.view.viewmodel.LoginViewModel
 import org.koin.android.viewmodel.ext.android.viewModel
@@ -40,7 +41,9 @@ class LoginFragment :
 
         binding.checkbox.setOnCheckedChangeListener { p0, p1 -> validateLogin() }
         validateLogin()
-
+        binding.textSignup.setOnClickListener {
+            popAndPushNewFragment(SignupFragment())
+        }
     }
 
     private fun getParamLogin(): UserLoginPass {
@@ -60,7 +63,7 @@ class LoginFragment :
                     Preference.saveToken(it.result?.accessToken)
                     Preference.isLogin(true)
                     Preference.saveUser(it.result?.user)
-                    replaceAndAddNewFragment(MainFragment())
+                    replaceAndAddNewFragment(HomeFragment())
                 } else if (it.state == RepoState.FAIL) {
                     if (it.message!!.isEmpty()) return@collect
                     showToastLong(getString(R.string.error_login_fails))

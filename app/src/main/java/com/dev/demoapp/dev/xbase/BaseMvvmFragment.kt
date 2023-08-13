@@ -252,7 +252,7 @@ abstract class BaseMvvmFragment<T : ViewDataBinding>(@LayoutRes private val cont
             mLifeRegistry.resume()
             Timber.tag(TAG).i("Show")
         }
-        dispatchHidden(hidden)
+//        dispatchHidden(hidden)
     }
 
     /**

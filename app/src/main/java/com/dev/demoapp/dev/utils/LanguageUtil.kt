@@ -16,8 +16,8 @@ class LanguageUtil(base: Context) : ContextWrapper(base) {
     companion object {
 
         private val listLanguage = mutableListOf(
-                Language(1, R.string.language_vietnamese, LanguageCode.VIETNAMESE),
-                Language(2, R.string.language_english, LanguageCode.ENGLISH),
+            Language(1, R.string.language_english, LanguageCode.ENGLISH),
+            Language(2, R.string.language_vietnamese, LanguageCode.VIETNAMESE),
         )
 
         fun getLanguageList(): List<Language> = listLanguage

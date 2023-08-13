@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <variable
+            name="data"
+            type="com.dev.demoapp.model.News" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/space_250"
+        android:layout_marginTop="@dimen/space_5"
+        android:background="@drawable/bg_dialog_base">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/space_10"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="@dimen/space_5"
+            android:gravity="center"
+            android:minHeight="@dimen/space_50"
+            android:text="@{data.title}"
+            android:textColor="@color/red"
+            android:textSize="@dimen/text_size_14"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/space_10"
+            android:layout_marginEnd="@dimen/space_10"
+            android:layout_marginBottom="@dimen/space_5"
+            android:layout_marginTop="@dimen/space_5"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@+id/textTitle">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/textContent"
+                style="@style/TitleTextBoldStyle"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/text_size_14"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

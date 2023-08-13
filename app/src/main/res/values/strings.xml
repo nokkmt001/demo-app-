@@ -27,5 +27,13 @@
     <string name="versionDefault">1.0.0</string>
 
     <string name="mess_network_unavailable_tip" tools:ignore="MissingTranslation">Mất kết nối internet, vui lòng kiểm tra lại!</string>
+    <string name="title_text_header_main">Well come to Android Test</string>
+    <string name="title_text_content_main">Please select categories what you would like to see on your feed. You can set this later on Filter.</string>
+    <string name="title_text_choose">Done</string>
+    <string name="sign_up_hint_input_last_name">your last name</string>
+    <string name="sign_up_hint_input_first_name">Your first name</string>
+    <string name="error_signup_fails">registration information is incorrect or already exists</string>
+    <string name="error_signup_success_login_fails">You have successfully registered but an error occurred while logging in, please login again</string>
+    <string name="title_login">Login</string>
 
 </resources>

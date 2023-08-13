@@ -10,6 +10,7 @@ import com.dev.demoapp.dev.utils.AESUtils
 import com.dev.demoapp.dev.xbase.BaseMvvmFragment
 import com.dev.demoapp.model.RepoState
 import com.dev.demoapp.model.UserLoginPass
+import com.dev.demoapp.view.ui.home.HomeFragment
 import com.dev.demoapp.view.ui.login.LoginFragment
 import com.dev.demoapp.view.ui.main.MainFragment
 import com.dev.demoapp.view.viewmodel.LoginViewModel
@@ -41,7 +42,7 @@ class SplashFragment :
                 if (it.state == RepoState.SUCCESS) {
                     Preference.saveToken(it.result?.accessToken)
                     Preference.saveUser(it.result?.user)
-                    replaceAndAddNewFragment(MainFragment())
+                    replaceAndAddNewFragment(HomeFragment())
                 } else if (it.state == RepoState.FAIL) {
                     replaceAndAddNewFragment(LoginFragment())
                 }

@@ -12,6 +12,4 @@ val viewModelModule = module {
 
   viewModel { LoginViewModel(get()) }
 
-  viewModel { ScanViewModel(get()) }
-
 }

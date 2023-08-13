@@ -165,6 +165,7 @@
     <dimen name="title_letter_font_size">17sp</dimen>
     <!-- The deafult tile size -->
     <dimen name="letter_tile_size">32dp</dimen>
+    <dimen name="space_250">250dp</dimen>
     <!-- /LetterTileProvider -->
 
 </resources>

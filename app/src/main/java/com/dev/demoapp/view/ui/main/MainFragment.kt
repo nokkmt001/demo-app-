@@ -5,6 +5,7 @@ import com.dev.demoapp.databinding.FragmentMainBinding
 import com.dev.demoapp.dev.xbase.BaseMvvmFragment
 import com.dev.demoapp.dev.xbase.EmptyViewModel
 import com.dev.demoapp.view.ui.home.HomeFragment
+import com.dev.demoapp.view.ui.news.NewsFragment
 import kotlinx.android.synthetic.main.fragment_main.*
 
 class MainFragment :
@@ -12,7 +13,7 @@ class MainFragment :
 
     private var viewModelM: EmptyViewModel? = null
 
-    private val fragmentHome = HomeFragment()
+    private val fragmentHome = NewsFragment()
 
 //    private val fragmentSetting = SettingFragment()
 

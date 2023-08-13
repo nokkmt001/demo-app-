@@ -8,7 +8,7 @@
 
     <item
         android:id="@+id/action_code"
-        android:icon="@drawable/nav_icon_home"
+        android:icon="@drawable/nav_icon_add"
         android:title=""/>
 
     <item

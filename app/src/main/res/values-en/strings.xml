@@ -3,6 +3,37 @@
 
     <string name="app_name" tools:ignore="MissingTranslation">Demo app</string>
     <string name="database" tools:ignore="MissingTranslation">DEMOAPP.db</string>
+    <string name="error_not_found">No data found</string>
+    <string name="error_unknown" tools:ignore="ExtraTranslation">Unknown error</string>
+    <string name="error_body_null">Data empty</string>
+    <string name="error_login_fails" translatable="false">Username or password is incorrect</string>
 
+    <string name="login_title_phone_number" tools:ignore="ExtraTranslation">Enter your phone number</string>
+    <string name="login_title_password" tools:ignore="ExtraTranslation">Your password</string>
+    <string name="login">Login</string>
+    <string name="text_hint_input_email" tools:ignore="ExtraTranslation">Your email</string>
+    <string name="permission_required">The application needs these permissions to be able to operate. Please grant permissions!</string>
+    <string name="notification" tools:ignore="ExtraTranslation">Notifications</string>
+    <string name="confirm" tools:ignore="ExtraTranslation">Confirm</string>
+    <string name="language_vietnamese" tools:ignore="ExtraTranslation">Vietnamese (VI)</string>
+    <string name="language_english" tools:ignore="ExtraTranslation">English (EN)</string>
+
+    <string name="title_choose_language">Select language</string>
+    <string name="choose_english">English</string>
+    <string name="choose_vietnamese">Vietnamese</string>
+
+    <string name="tittle_out_of_application">Are you sure you want to exit the application?</string>
+    <string name="msg_confirm_logout">Are you sure you want to sign out?</string>
+    <string name="label_version_common">Version</string>
+    <string name="versionDefault">1.0.0</string>
+
+    <string name="mess_network_unavailable_tip" tools:ignore="MissingTranslation">Lost internet connection, please check again!</string>
+    <string name="title_text_content_main">Please select categories what you would like to see on your feed. You can set this later on Filter.</string>
+    <string name="title_text_choose">Done</string>
+    <string name="sign_up_hint_input_last_name">your last name</string>
+    <string name="sign_up_hint_input_first_name">Your first name</string>
+    <string name="error_signup_fails">registration information is incorrect or already exists</string>
+    <string name="error_signup_success_login_fails">You have successfully registered but an error occurred while logging in, please login again</string>
+    <string name="title_login">Login</string>
 
 </resources>

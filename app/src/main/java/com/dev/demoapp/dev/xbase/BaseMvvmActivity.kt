@@ -43,6 +43,8 @@ abstract class BaseMvvmActivity<T : ViewDataBinding>(@LayoutRes private val cont
     @SuppressLint("SourceLockedOrientationActivity")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+            WindowManager.LayoutParams.FLAG_FULLSCREEN)
         if (useEventBus()) {
             EventBus.getDefault().register(this)
         }
@@ -65,34 +67,6 @@ abstract class BaseMvvmActivity<T : ViewDataBinding>(@LayoutRes private val cont
         }
     }
 
-
-    override fun onLowMemory() {
-        super.onLowMemory()
-    }
-
-    override fun onStart() {
-        super.onStart()
-    }
-
-    override fun onResume() {
-        super.onResume()
-    }
-
-    override fun onPause() {
-        super.onPause()
-    }
-
-    override fun onStop() {
-        super.onStop()
-    }
-
-    override fun onRestart() {
-        super.onRestart()
-    }
-
-    override fun onTrimMemory(level: Int) {
-        super.onTrimMemory(level)
-    }
 
     override fun finish() {
         super.finish()
