@@ -28,3 +28,16 @@ if is login -> pop and pushFragment MainFragment
   - [Bundler] - Android Intent & Bundle extensions that insert and retrieve values elegantly.
   - [Timber] - logging
 * Ripple animation, Shared element container transform/transition
+
+  
+* ![image](https://github.com/nokkmt001/demo-app-/assets/74495226/b229e849-3351-47bd-9937-bbb6958eda81)
+
+* SIGNIN PAGE
+  
+* ![image](https://github.com/nokkmt001/demo-app-/assets/74495226/42412ee0-05d7-4695-af22-c1c3e40406a2)
+
+* SIGNUP PAGE
+
+* ![image](https://github.com/nokkmt001/demo-app-/assets/74495226/d30e4ecb-d4fc-4f73-a9d6-88b48f8e8faf)
+
+* CATEGORIES PAGE
